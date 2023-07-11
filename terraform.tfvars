@@ -1,5 +1,5 @@
 # Stack name
-project_name = "2048-Game-Prod"
+project_name = "2048-game-prod"
 
 # Game instance type
 game_instance_type = "t2.micro"
