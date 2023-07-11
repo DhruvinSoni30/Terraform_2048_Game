@@ -35,8 +35,8 @@ for f in file:
         if len(stack_id) > STACK_ID_MAX_LENGTH:
             errors.append("'stack' cannot be greater than {} characters long".format(STACK_ID_MAX_LENGTH))
 
-        if 'jenkins_instance_type' not in obj:
-            errors.append("Jenkins instance type is not defned")
+        if 'game_instance_type' not in obj:
+            errors.append("Instance type is not defined")
     
 fp.close()
 
